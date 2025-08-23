@@ -53,7 +53,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-700">
               <img 
-                src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="/8.jpg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Elegant wedding tent setup" 
                 className="w-full h-96 object-cover"
               />

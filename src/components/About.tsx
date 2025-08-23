@@ -5,22 +5,22 @@ const About = () => {
   const achievements = [
     {
       icon: Award,
-      number: "500+",
+      number: "50+",
       label: "Successful Events"
     },
     {
       icon: Heart,
-      number: "15+",
+      number: "5+",
       label: "Years Experience"
     },
     {
       icon: Users,
-      number: "5000+",
+      number: "10+",
       label: "Team Members"
     },
     {
       icon: Clock,
-      number: "24/7",
+      number: "12/7",
       label: "Support Available"
     }
   ];
@@ -55,9 +55,9 @@ const About = () => {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.pexels.com/photos/1024974/pexels-photo-1024974.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Our team setting up a beautiful wedding" 
-                className="w-full h-96 object-cover"
+                src="ask.png?auto=compress&cs=tinysrgb&w=800&h=800" 
+                alt="ashok bishnoi" 
+                className="w-full h-100 object-cover"
               />
             </div>
             

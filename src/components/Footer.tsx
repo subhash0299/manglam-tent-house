@@ -61,18 +61,48 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 pt-8 mt-12">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Manglam Tent House. All rights reserved.
-            </p>
-            <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Sitemap</a>
+          <div className="border-t border-gray-700 pt-6 mt-6">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full">
+
+              {/* Left: Copyright */}
+              <p className="text-gray-400 text-sm mb-4 md:mb-0">
+                © 2024 Manglam Tent House. All rights reserved.
+              </p>
+
+              {/* Center: Your Ad */}
+              <div className="flex items-center space-x-3 mb-4 md:mb-0">
+                <a href="tel:6364634627">
+                  <img 
+                    src="/sk.jpg" 
+                    alt="Subhash Bishnoi" 
+                    className="w-12 h-12 rounded-full border-2 border-amber-400 cursor-pointer"
+                  />
+                </a>
+                <div>
+                  <p className="text-amber-400 font-semibold text-sm">Website by Subhash Bishnoi</p>
+                  <p className="text-gray-300 text-xs">Contact me to make your website</p>
+                  <a 
+                    href="tel:6364634627" 
+                    className="inline-block mt-1 px-3 py-1 bg-amber-500 text-gray-900 rounded-full text-xs font-medium hover:bg-amber-600 transition-colors duration-300"
+                  >
+                    Call Now
+                  </a>
+                </div>
+              </div>
+
+              {/* Right: Links */}
+              <div className="flex space-x-6 text-sm">
+                <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Privacy Policy</a>
+                <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Terms of Service</a>
+                <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors duration-300">Sitemap</a>
+              </div>
             </div>
           </div>
-        </div>
+
+
+
+
+        
       </div>
     </footer>
   );

@@ -4,25 +4,25 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Priya & Rajesh",
+      name: "Dinesh Jangu",
       event: "Wedding Reception",
       rating: 5,
       text: "Manglam Tent House made our wedding reception absolutely magical! The attention to detail and professional service exceeded our expectations. Our guests are still talking about how beautiful everything looked.",
       image: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
-      name: "Anjali Sharma",
+      name: "Rahul",
       event: "Wedding Ceremony",
       rating: 5,
       text: "From the initial consultation to the final cleanup, the team was incredibly professional. They understood our vision perfectly and brought it to life. Highly recommended for anyone planning a wedding!",
       image: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
-      name: "Vikram & Meera",
+      name: "Sonu",
       event: "Anniversary Celebration",
       rating: 5,
       text: "We chose Manglam Tent House for our 25th anniversary celebration, and they delivered beyond our dreams. The elegant setup and seamless coordination made our special day unforgettable.",
-      image: "https://images.pexels.com/photos/265898/pexels-photo-265898.jpeg?auto=compress&cs=tinysrgb&w=150"
+      image: "sonu.jpg?auto=compress&cs=tinysrgb&w=150"
     }
   ];
 
