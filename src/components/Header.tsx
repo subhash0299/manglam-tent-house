@@ -28,7 +28,8 @@ const Header = () => {
         {/* Main navigation */}
         <div className="flex justify-between items-center py-4">
           <div className="text-2xl font-bold text-gray-800">
-            <span className="text-amber-600">Manglam</span> Tent House
+            <span className="text-amber-600">मंगलम</span> टेन्ट हाउस
+
           </div>
 
           {/* Desktop Navigation */}
