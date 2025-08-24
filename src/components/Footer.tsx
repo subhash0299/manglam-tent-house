@@ -47,15 +47,15 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone size={18} className="text-amber-400" />
-                <span className="text-gray-300">+91 98765 43210</span>
+                <span className="text-gray-300">9588219960</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={18} className="text-amber-400" />
-                <span className="text-gray-300">info@manglamtenthouse.com</span>
+                <span className="text-gray-300">bishnoiask1@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin size={18} className="text-amber-400 mt-1" />
-                <span className="text-gray-300">123 Wedding Street<br />Event City, EC 12345</span>
+                <span className="text-gray-300">Manglam Tent House<br />Haliwav</span>
               </div>
             </div>
           </div>

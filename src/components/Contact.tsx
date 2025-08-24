@@ -45,7 +45,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Address</h4>
-                    <p className="text-gray-600">123 Wedding Street<br />Event City, EC 12345<br />India</p>
+                    <p className="text-gray-600">Manglam TENT House<br />Haliwav</p>
                   </div>
                 </div>
 
@@ -65,7 +65,7 @@ const Contact = () => {
             <div className="bg-amber-600 text-white p-6 rounded-xl">
               <h4 className="font-bold text-xl mb-2">Free Consultation</h4>
               <p className="mb-4">Get expert advice and a personalized quote for your event. No obligation required!</p>
-              <a href="tel:+919876543210" className="bg-white text-amber-600 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors duration-300 inline-block">
+              <a href="tel:9588219960" className="bg-white text-amber-600 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors duration-300 inline-block">
                 Call Now
               </a>
             </div>
